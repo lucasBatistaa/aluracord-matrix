@@ -102,8 +102,15 @@ export default function PaginaInicial() {
 
                                 //Pegar o valor
                                 const value = event.target.value;
-                                //Trocar o valor da variavel
+
+                                //Mostrar a imagem se tiver mais de 2 caracteres
+                                //Trocar o valor da variavel         
+                               
                                 setUsername(value);
+                                                       
+                                
+
+                                
                             }}
                             fullWidth
                             textFieldColors={{
